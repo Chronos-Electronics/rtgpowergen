@@ -7,5 +7,6 @@ public class Blocks implements Registerable {
 
     @Override
     public void register() {
+        SecretMachine.INSTANCE.register();
     }
 }
