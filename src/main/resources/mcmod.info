@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "rtgpowergen",
+    "name": "RTG Nuclear Power",
+    "description": "",
+    "version": "0.0.1",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
