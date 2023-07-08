@@ -7,5 +7,50 @@
         "stream": true
       }
     ]
+  },
+  "jadeplume": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:jadeplume",
+        "stream": true
+      }
+    ]
+  },
+  "megalovania": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:megalovania",
+        "stream": true
+      }
+    ]
+  },
+  "wmid": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:wmid",
+        "stream": true
+      }
+    ]
+  },
+  "kick_back": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:kick_back",
+        "stream": true
+      }
+    ]
+  },
+  "soviet": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:soviet",
+        "stream": true
+      }
+    ]
   }
 }

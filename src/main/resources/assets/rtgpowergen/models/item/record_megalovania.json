@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "rtgpowergen:items/discs/rumbling"
+    "layer0": "rtgpowergen:items/discs/megalovania"
   }
 }

@@ -13,6 +13,11 @@ public class Items implements Registerable {
     static public final BaseItem COIN = new BaseItem().regName("coin");
 
     static public final MusicDisc RUMBLING_RECORD = new MusicDisc("rumbling", Sounds.RUMBLING);
+    static public final MusicDisc JADEPLUME_RECORD = new MusicDisc("jadeplume", Sounds.JADEPLUME);
+    static public final MusicDisc MEGALOVANIA_RECORD = new MusicDisc("megalovania", Sounds.MEGALOVANIA);
+    static public final MusicDisc WMID_RECORD = new MusicDisc("wmid", Sounds.WMID);
+    static public final MusicDisc KICK_BACK_RECORD = new MusicDisc("kick_back", Sounds.KICK_BACK);
+    static public final MusicDisc SOVIET_RECORD = new MusicDisc("soviet", Sounds.SOVIET_BACK);
 
     @Override
     public void register() {
@@ -23,6 +28,11 @@ public class Items implements Registerable {
         COIN.register();
 
         RUMBLING_RECORD.register();
+        JADEPLUME_RECORD.register();
+        MEGALOVANIA_RECORD.register();
+        WMID_RECORD.register();
+        KICK_BACK_RECORD.register();
+        SOVIET_RECORD.register();
     }
 
     private void preRegister(){
