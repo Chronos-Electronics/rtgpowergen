@@ -1,10 +1,15 @@
 package com.github.chronoselectronics.rtgpowergen.material;
 
+import com.github.chronoselectronics.rtgpowergen.Rtgpowergen;
 import com.github.chronoselectronics.rtgpowergen.Utils.Registerable;
+import com.github.chronoselectronics.rtgpowergen.blocks.BaseBlock;
+import com.github.chronoselectronics.rtgpowergen.items.BaseItem;
 import com.github.chronoselectronics.rtgpowergen.material.materials.Plutonium;
 import com.github.chronoselectronics.rtgpowergen.material.materials.Thulium;
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,15 +21,15 @@ public class Material implements Registerable {
     }};
     public static Material INSTANCE = new Material();
 
-    public Item getItem() {
+    public BaseItem getItem() {
         return null;
     }
 
-    public Block getBlock() {
+    public BaseBlock getBlock() {
         return null;
     }
 
-    public Block getOre() {
+    public BaseBlock getOre() {
         return null;
     }
 
@@ -38,5 +43,24 @@ public class Material implements Registerable {
     @Override
     public void register() {
         registerInstances();
+    }
+
+    protected void registerNonMaterialSpecificPostRegister() {
+        GameRegistry.addShapelessRecipe(new ResourceLocation(Rtgpowergen.MOD_ID, "plutonium_itemFromBlock"),
+                null,
+                new ItemStack(getItem(), 9),
+                Ingredient.fromItem(getBlock().getItemBlock()));
+
+        Ingredient ingotIngredient = Ingredient.fromItems(getItem());
+        GameRegistry.addShapedRecipe(new ResourceLocation(Rtgpowergen.MOD_ID, "plutonium_blockFromItem"),
+                null,
+                new ItemStack(getBlock()),
+                "III",
+                "III",
+                "III",
+                'I', ingotIngredient);
+
+        GameRegistry.addSmelting(getOre(), new ItemStack(getItem()), 1);
+
     }
 }

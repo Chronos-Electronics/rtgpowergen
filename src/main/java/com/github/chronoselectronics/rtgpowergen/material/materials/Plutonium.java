@@ -1,19 +1,15 @@
 package com.github.chronoselectronics.rtgpowergen.material.materials;
 
-import com.github.chronoselectronics.rtgpowergen.Rtgpowergen;
 import com.github.chronoselectronics.rtgpowergen.blocks.BaseBlock;
 import com.github.chronoselectronics.rtgpowergen.items.BaseItem;
 import com.github.chronoselectronics.rtgpowergen.material.Material;
-import net.minecraft.block.Block;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.World;
 
 import javax.annotation.Nullable;
 import java.util.List;
-import java.util.logging.Level;
 
 public class Plutonium extends Material {
     public static Plutonium INSTANCE = new Plutonium();
@@ -37,24 +33,27 @@ public class Plutonium extends Material {
         ITEM.register();
         BLOCK.register();
         ORE.register();
+
+        registerNonMaterialSpecificPostRegister();
     }
 
     @Override
-    public Item getItem() {
+    public BaseItem getItem() {
         return ITEM;
     }
 
     @Override
-    public Block getBlock() {
+    public BaseBlock getBlock() {
         return BLOCK;
     }
 
     @Override
-    public Block getOre() {
+    public BaseBlock getOre() {
         return ORE;
     }
 
     private void preRegister() {
+
         ORE.setHarvestLevel("pickaxe",2);
         ORE.light = 9;
 

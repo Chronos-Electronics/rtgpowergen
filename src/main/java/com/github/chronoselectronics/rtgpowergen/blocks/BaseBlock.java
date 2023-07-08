@@ -21,6 +21,12 @@ import net.minecraftforge.oredict.OreDictionary;
 public class BaseBlock extends Block implements Registerable {
     private String oreDictName = "";
 
+    public ItemBlock getItemBlock() {
+        return itemBlock;
+    }
+
+    private ItemBlock itemBlock = new ItemBlock(this);
+
     public int light = 0;
 
     public BaseBlock(Material material) {
@@ -46,9 +52,10 @@ public class BaseBlock extends Block implements Registerable {
 
     public void register() {
         lightValue = light;
+        itemBlock.setRegistryName(this.getRegistryName());
 
         blockRegister();
-        ForgeRegistries.ITEMS.register(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        ForgeRegistries.ITEMS.register(itemBlock);
 
         setCreativeTab(CreativeTab.INSTANCE);
 

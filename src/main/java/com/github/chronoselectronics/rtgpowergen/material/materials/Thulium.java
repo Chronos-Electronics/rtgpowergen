@@ -30,20 +30,22 @@ public class Thulium extends Material {
         ITEM.register();
         BLOCK.register();
         ORE.register();
+
+        registerNonMaterialSpecificPostRegister();
     }
 
     @Override
-    public Item getItem() {
+    public BaseItem getItem() {
         return ITEM;
     }
 
     @Override
-    public Block getBlock() {
+    public BaseBlock getBlock() {
         return BLOCK;
     }
 
     @Override
-    public Block getOre() {
+    public BaseBlock getOre() {
         return ORE;
     }
 
