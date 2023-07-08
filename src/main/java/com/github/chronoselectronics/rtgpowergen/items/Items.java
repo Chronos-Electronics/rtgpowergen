@@ -1,14 +1,23 @@
 package com.github.chronoselectronics.rtgpowergen.items;
 
 import com.github.chronoselectronics.rtgpowergen.Utils.Registerable;
+import com.github.chronoselectronics.rtgpowergen.items.items.BallZ;
 
 
 public class Items implements Registerable {
     static public Items INSTANCE = new Items();
-    static private BaseItem MEINARSCH = new BaseItem().regName("meinarsch");
 
+    static public BaseItem MEINARSCH = new BaseItem().regName("meinarsch");
+    static public BallZ BALLZ = new BallZ();
     @Override
     public void register() {
+        preRegister();
+
         MEINARSCH.register();
+        BALLZ.register();
+    }
+
+    private void preRegister(){
+        BALLZ.regName("ballz");
     }
 }

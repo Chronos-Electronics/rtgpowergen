@@ -68,7 +68,7 @@ public class Rtgpowergen {
     public static class CommonProxy {
         public void preInit(FMLPreInitializationEvent e) {
             // Initialization of blocks and items typically goes here:
-            logger.log(Level.INFO, "Hello from RTG (Still waiting for AoT last episode");
+            logger.log(Level.INFO, "Hello from RTG (Still waiting for AoT last episode)");
             for (Registerable object : registerables) {
                 object.register();
             }

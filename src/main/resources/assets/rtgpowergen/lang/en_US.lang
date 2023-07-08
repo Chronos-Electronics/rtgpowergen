@@ -1,6 +1,11 @@
 tile.rtgpowergen.plutonium_block.name=Block of Plutonium-238
 tile.rtgpowergen.plutonium_ore.name=Plutonium Oxide (Plutonium Ore)
+tooltip.plutonium_ore.line=Some waste ancient builders left buried underground... Maybe you can do something with it
 item.rtgpowergen.plutonium_ingot.name=Ingot of Plutonium-238
+
 itemGroup.rtgpowergentab=RTG Power Generator
+
 item.rtgpowergen.meinarsch.name=Tm
+item.rtgpowergen.ballz.name=Kamehameha!
+
 tile.rtgpowergen.secret_machine.name=Machine with Stick
