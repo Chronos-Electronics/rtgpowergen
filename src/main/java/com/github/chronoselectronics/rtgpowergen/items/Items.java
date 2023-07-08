@@ -9,6 +9,7 @@ public class Items implements Registerable {
 
     static public BallZ BALLZ = new BallZ();
     static public BaseItem SCREWDRIVER = new BaseItem().regName("screwdriver");
+    static public BaseItem COIN = new BaseItem().regName("coin");
 
     @Override
     public void register() {
@@ -16,6 +17,7 @@ public class Items implements Registerable {
 
         BALLZ.register();
         SCREWDRIVER.register();
+        COIN.register();
     }
 
     private void preRegister(){
