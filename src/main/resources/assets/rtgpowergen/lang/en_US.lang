@@ -9,7 +9,9 @@ item.rtgpowergen.thulium_ingot.name=Piece of Thulium-69
 
 itemGroup.rtgpowergentab=RTG Power Generator
 
-item.rtgpowergen.thulium.name=Thulium-69
+item.rtgpowergen.screwdriver.name=Screwdriver
+tile.rtgpowergen.demoncore.name=Demon Core
+
 item.rtgpowergen.ballz.name=Kamehameha!
 
 tile.rtgpowergen.secret_machine.name=Machine with Stick

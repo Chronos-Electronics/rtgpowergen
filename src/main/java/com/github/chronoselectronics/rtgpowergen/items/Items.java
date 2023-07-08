@@ -8,11 +8,14 @@ public class Items implements Registerable {
     static public Items INSTANCE = new Items();
 
     static public BallZ BALLZ = new BallZ();
+    static public BaseItem SCREWDRIVER = new BaseItem().regName("screwdriver");
+
     @Override
     public void register() {
         preRegister();
 
         BALLZ.register();
+        SCREWDRIVER.register();
     }
 
     private void preRegister(){
