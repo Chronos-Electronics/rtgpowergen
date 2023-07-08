@@ -45,5 +45,8 @@ public class Plutonium extends Material {
 
     private void preRegister() {
         ORE.setHarvestLevel("pickaxe",2);
+        ORE.light = 9;
+
+        BLOCK.light = 15;
     }
 }

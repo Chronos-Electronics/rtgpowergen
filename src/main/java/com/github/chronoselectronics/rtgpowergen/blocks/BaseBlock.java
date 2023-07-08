@@ -6,10 +6,12 @@ import com.github.chronoselectronics.rtgpowergen.Utils.Registerable;
 import com.github.chronoselectronics.rtgpowergen.items.BaseItem;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
@@ -19,6 +21,8 @@ import net.minecraftforge.oredict.OreDictionary;
 
 public class BaseBlock extends Block implements Registerable {
     private String oreDictName = "";
+
+    public int light = 0;
 
     public BaseBlock(Material material) {
         super(material);
@@ -73,6 +77,11 @@ public class BaseBlock extends Block implements Registerable {
     public void onBlockHarvested(World world, BlockPos pos, net.minecraft.block.state.IBlockState state, net.minecraft.entity.player.EntityPlayer player) {
         super.onBlockHarvested(world, pos, state, player);
         //dropBlockAsItem(world, pos, state, 0);
+    }
+
+    @Override
+    public int getLightValue(IBlockState state, IBlockAccess world, BlockPos pos) {
+        return light;
     }
 
 
