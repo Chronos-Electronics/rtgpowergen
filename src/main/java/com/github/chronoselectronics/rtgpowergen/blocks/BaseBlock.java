@@ -3,7 +3,6 @@ package com.github.chronoselectronics.rtgpowergen.blocks;
 import com.github.chronoselectronics.rtgpowergen.Rtgpowergen;
 import com.github.chronoselectronics.rtgpowergen.Utils.CreativeTab;
 import com.github.chronoselectronics.rtgpowergen.Utils.Registerable;
-import com.github.chronoselectronics.rtgpowergen.items.BaseItem;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;

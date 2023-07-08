@@ -3,9 +3,13 @@ tile.rtgpowergen.plutonium_ore.name=Plutonium Oxide (Plutonium Ore)
 tooltip.plutonium_ore.line=Some waste ancient builders left buried underground... Maybe you can do something with it
 item.rtgpowergen.plutonium_ingot.name=Ingot of Plutonium-238
 
+tile.rtgpowergen.thulium_block.name=Block of Thulium-69
+tile.rtgpowergen.thulium_ore.name=Thulium Oxide (Thulium Ore)
+item.rtgpowergen.thulium_ingot.name=Ingot of Thulium-69
+
 itemGroup.rtgpowergentab=RTG Power Generator
 
-item.rtgpowergen.sussy.name=Thulium-69
+item.rtgpowergen.thulium.name=Thulium-69
 item.rtgpowergen.ballz.name=Kamehameha!
 
 tile.rtgpowergen.secret_machine.name=Machine with Stick

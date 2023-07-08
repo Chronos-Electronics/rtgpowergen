@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -76,7 +77,7 @@ public class Rtgpowergen {
         }
 
         public void init(FMLInitializationEvent e) {
-
+            NetworkRegistry.INSTANCE.registerGuiHandler(INSTANCE, new GuiProxy());
         }
 
         public void postInit(FMLPostInitializationEvent e) {

@@ -1,6 +1,7 @@
 package com.github.chronoselectronics.rtgpowergen.blocks;
 
 import com.github.chronoselectronics.rtgpowergen.Utils.Registerable;
+import com.github.chronoselectronics.rtgpowergen.blocks.stickmachine.SecretMachine;
 
 public class Blocks implements Registerable {
     static public Blocks INSTANCE = new Blocks();
