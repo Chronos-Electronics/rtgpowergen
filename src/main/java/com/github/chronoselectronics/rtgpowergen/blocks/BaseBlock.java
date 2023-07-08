@@ -46,6 +46,8 @@ public class BaseBlock extends Block implements Registerable {
     }
 
     public void register() {
+        lightValue = light;
+
         blockRegister();
         ForgeRegistries.ITEMS.register(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 
