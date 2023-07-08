@@ -1,6 +1,8 @@
 # User-specific stuff
 .idea/
 *.priv.*
+*.ogg
+
 *.iml
 *.ipr
 *.iws

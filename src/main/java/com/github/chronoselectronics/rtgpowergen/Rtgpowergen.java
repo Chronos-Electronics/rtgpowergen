@@ -1,6 +1,7 @@
 package com.github.chronoselectronics.rtgpowergen;
 
 import com.github.chronoselectronics.rtgpowergen.Utils.Registerable;
+import com.github.chronoselectronics.rtgpowergen.Utils.Sounds;
 import com.github.chronoselectronics.rtgpowergen.blocks.Blocks;
 import com.github.chronoselectronics.rtgpowergen.items.Items;
 import com.github.chronoselectronics.rtgpowergen.material.Material;

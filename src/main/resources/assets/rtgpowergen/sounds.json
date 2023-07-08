@@ -1,0 +1,11 @@
+{
+  "rumbling": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:rumbling",
+        "stream": true
+      }
+    ]
+  }
+}
