@@ -23,7 +23,7 @@ public class MusicDisc extends ItemRecord implements Registerable {
     protected MusicDisc(String name, SoundEvent soundEvent) {
         super(name, soundEvent);
 
-        reg(name);
+        nameReg(name);
 
         musicDiscMap.put(counter, this);
         counter++;
@@ -31,7 +31,7 @@ public class MusicDisc extends ItemRecord implements Registerable {
         Rtgpowergen.log(Level.INFO, getRegistryName().toString() + Integer.toString (counter-1));
     }
 
-    protected void reg(String name) {
+    protected void nameReg(String name) {
         this.setRegistryName("record_" + name);
         setTranslationKey(Rtgpowergen.MOD_ID + "." + "record");
     }

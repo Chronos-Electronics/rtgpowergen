@@ -10,7 +10,7 @@ public class Coin extends MusicDisc {
     }
 
     @Override
-    protected void reg(String name) {
+    protected void nameReg(String name) {
         this.setRegistryName(name);
         setTranslationKey(Rtgpowergen.MOD_ID + "." + name);
     }

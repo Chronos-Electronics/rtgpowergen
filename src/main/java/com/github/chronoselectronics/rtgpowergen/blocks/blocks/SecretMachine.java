@@ -13,7 +13,6 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-import java.util.Random;
 
 public class SecretMachine extends BaseBlock {
     public static final SecretMachine INSTANCE = new SecretMachine(Material.ANVIL);

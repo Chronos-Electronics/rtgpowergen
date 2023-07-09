@@ -38,6 +38,14 @@ public class Items implements Registerable {
     static public final MusicDisc BLACK = new MusicDisc("black", Sounds.BLACK);
     static public final MusicDisc WINDMILL = new MusicDisc("windmill", Sounds.WINDMILL);
 
+    //AOT OPs
+    static public final MusicDisc GUREN = new MusicDisc("guren", Sounds.GUREN);
+    static public final MusicDisc JIYUU = new MusicDisc("jiyuu", Sounds.JIYUU);
+    static public final MusicDisc SASAGEYO = new MusicDisc("sasageyo", Sounds.SASAGEYO);
+    static public final MusicDisc SWAN = new MusicDisc("swan", Sounds.SWAN);
+    static public final MusicDisc MIRKI = new MusicDisc("mirki", Sounds.MIRKI);
+    static public final MusicDisc SENSOU = new MusicDisc("sensou", Sounds.SENSOU);
+
     @Override
     public void register() {
         preRegister();
@@ -60,6 +68,14 @@ public class Items implements Registerable {
         BONNIE.register();
         BLACK.register();
         WINDMILL.register();
+
+        //AOT OPs
+        GUREN.register();
+        JIYUU.register();
+        SASAGEYO.register();
+        SWAN.register();
+        MIRKI.register();
+        SENSOU.register();
     }
 
     private void preRegister(){

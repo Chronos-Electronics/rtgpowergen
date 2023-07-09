@@ -97,5 +97,68 @@
       "stream": true
     }
   ]
-}
+},
+  "guren": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:guren",
+        "stream": true
+      }
+    ]
+  },
+  "jiyuu": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:jiyuu",
+        "stream": true
+      }
+    ]
+  },
+  "jiyuu": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:jiyuu",
+        "stream": true
+      }
+    ]
+  },
+  "sasageyo": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:aotops/sasageyo",
+        "stream": true
+      }
+    ]
+  },
+  "swan": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:aotops/swan",
+        "stream": true
+      }
+    ]
+  },
+  "mirki": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:aotops/mirki",
+        "stream": true
+      }
+    ]
+  },
+  "sensou": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:aotops/sensou",
+        "stream": true
+      }
+    ]
+  }
 }
