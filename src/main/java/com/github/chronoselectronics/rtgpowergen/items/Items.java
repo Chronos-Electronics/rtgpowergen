@@ -16,6 +16,7 @@ public class Items implements Registerable {
     static public BallZ BALLZ = new BallZ();
     static public final BaseItem SCREWDRIVER = new BaseItem().regName("screwdriver");
     static public final BaseItem COIN = new BaseItem().regName("coin");
+    static public final BaseItem GALSS = new BaseItem().regName("glassofsus");
 
 
     static public final BaseItem RECORD_BASE = new BaseItem(){
