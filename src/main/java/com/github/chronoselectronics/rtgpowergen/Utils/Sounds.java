@@ -13,4 +13,6 @@ public class Sounds{
     public static final SoundEvent SOVIET_BACK = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"soviet")).setRegistryName(Rtgpowergen.MOD_ID, "soviet");
     public static final SoundEvent ZELDAA = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"zeldaa")).setRegistryName(Rtgpowergen.MOD_ID, "zeldaa");
     public static final SoundEvent SPOODERMAN = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"spooderman")).setRegistryName(Rtgpowergen.MOD_ID, "spooderman");
+    public static final SoundEvent BONNIE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"bonnie")).setRegistryName(Rtgpowergen.MOD_ID, "bonnie");
+    public static final SoundEvent BLACK = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"black")).setRegistryName(Rtgpowergen.MOD_ID, "black");
 }
