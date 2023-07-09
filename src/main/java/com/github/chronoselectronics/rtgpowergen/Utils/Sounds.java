@@ -31,12 +31,12 @@ public class Sounds{
 
 
     //AOT OPs
-    public static final SoundEvent GUREN = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"aotops/guren")).setRegistryName(Rtgpowergen.MOD_ID, "guren");
-    public static final SoundEvent SASAGEYO = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"aotops/sasageyo")).setRegistryName(Rtgpowergen.MOD_ID, "sasageyo");
-    public static final SoundEvent JIYUU = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"aotops/jiyuu")).setRegistryName(Rtgpowergen.MOD_ID, "jiyuu");
-    public static final SoundEvent SWAN = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"aotops/swan")).setRegistryName(Rtgpowergen.MOD_ID, "swan");
-    public static final SoundEvent MIRKI = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"aotops/mirki")).setRegistryName(Rtgpowergen.MOD_ID, "mirki");
-    public static final SoundEvent SENSOU = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"aotops/sensou")).setRegistryName(Rtgpowergen.MOD_ID, "sensou");
+    public static final SoundEvent GUREN = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"guren")).setRegistryName(Rtgpowergen.MOD_ID, "guren");
+    public static final SoundEvent SASAGEYO = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"sasageyo")).setRegistryName(Rtgpowergen.MOD_ID, "sasageyo");
+    public static final SoundEvent JIYUU = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"jiyuu")).setRegistryName(Rtgpowergen.MOD_ID, "jiyuu");
+    public static final SoundEvent SWAN = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"swan")).setRegistryName(Rtgpowergen.MOD_ID, "swan");
+    public static final SoundEvent MIRKI = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"mirki")).setRegistryName(Rtgpowergen.MOD_ID, "mirki");
+    public static final SoundEvent SENSOU = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"sensou")).setRegistryName(Rtgpowergen.MOD_ID, "sensou");
 
 
 }
