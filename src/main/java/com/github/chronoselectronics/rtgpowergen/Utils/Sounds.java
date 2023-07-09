@@ -15,4 +15,5 @@ public class Sounds{
     public static final SoundEvent SPOODERMAN = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"spooderman")).setRegistryName(Rtgpowergen.MOD_ID, "spooderman");
     public static final SoundEvent BONNIE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"bonnie")).setRegistryName(Rtgpowergen.MOD_ID, "bonnie");
     public static final SoundEvent BLACK = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"black")).setRegistryName(Rtgpowergen.MOD_ID, "black");
+    public static final SoundEvent WINDMILL = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"windmill")).setRegistryName(Rtgpowergen.MOD_ID, "windmill");
 }

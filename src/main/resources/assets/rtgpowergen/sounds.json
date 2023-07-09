@@ -79,11 +79,21 @@
         "stream": true
       }
     ]
-  },"black": {
+  },
+  "black": {
   "category": "record",
   "sounds": [
     {
       "name": "rtgpowergen:black",
+      "stream": true
+    }
+  ]
+},
+  "windmill": {
+  "category": "record",
+  "sounds": [
+    {
+      "name": "rtgpowergen:windmill",
       "stream": true
     }
   ]
