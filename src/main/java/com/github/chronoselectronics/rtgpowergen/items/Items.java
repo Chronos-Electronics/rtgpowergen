@@ -3,6 +3,7 @@ package com.github.chronoselectronics.rtgpowergen.items;
 import com.github.chronoselectronics.rtgpowergen.Utils.Registerable;
 import com.github.chronoselectronics.rtgpowergen.Utils.Sounds;
 import com.github.chronoselectronics.rtgpowergen.items.items.BallZ;
+import com.github.chronoselectronics.rtgpowergen.items.items.Coin;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.TextComponentTranslation;
@@ -15,8 +16,8 @@ import java.util.List;
 public class Items implements Registerable {
     static public BallZ BALLZ = new BallZ();
     static public final BaseItem SCREWDRIVER = new BaseItem().regName("screwdriver");
-    static public final BaseItem COIN = new BaseItem().regName("coin");
-    static public final BaseItem GALSS = new BaseItem().regName("glassofsus");
+    static public final Coin COIN = new Coin("coin", Sounds.SOVIET_BACK);
+    static public final BaseItem GLASS = new BaseItem().regName("glassofsus");
 
 
     static public final BaseItem RECORD_BASE = new BaseItem(){
@@ -31,7 +32,6 @@ public class Items implements Registerable {
     static public final MusicDisc MEGALOVANIA_RECORD = new MusicDisc("megalovania", Sounds.MEGALOVANIA);
     static public final MusicDisc WMID_RECORD = new MusicDisc("wmid", Sounds.WMID);
     static public final MusicDisc KICK_BACK_RECORD = new MusicDisc("kick_back", Sounds.KICK_BACK);
-    static public final MusicDisc SOVIET_RECORD = new MusicDisc("soviet", Sounds.SOVIET_BACK);
     static public final MusicDisc ZELDAA = new MusicDisc("zeldaa", Sounds.ZELDAA);
     static public final MusicDisc SPOODERMAN = new MusicDisc("spooderman", Sounds.SPOODERMAN);
     static public final MusicDisc BONNIE = new MusicDisc("bonnie", Sounds.BONNIE);
@@ -53,7 +53,6 @@ public class Items implements Registerable {
         MEGALOVANIA_RECORD.register();
         WMID_RECORD.register();
         KICK_BACK_RECORD.register();
-        SOVIET_RECORD.register();
         ZELDAA.register();
         SPOODERMAN.register();
         BONNIE.register();
