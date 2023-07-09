@@ -79,6 +79,8 @@ public class Items implements Registerable {
         BONNIE.register();
         BLACK.register();
         WINDMILL.register();
+
+
         INFINITE.register();
         UNDEFEATABLE.register();
         SEA.register();

@@ -16,6 +16,7 @@ public class Sounds{
     public static final SoundEvent BONNIE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"bonnie")).setRegistryName(Rtgpowergen.MOD_ID, "bonnie");
     public static final SoundEvent BLACK = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"black")).setRegistryName(Rtgpowergen.MOD_ID, "black");
     public static final SoundEvent WINDMILL = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"windmill")).setRegistryName(Rtgpowergen.MOD_ID, "windmill");
+
     public static final SoundEvent INFINITE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"infinite")).setRegistryName(Rtgpowergen.MOD_ID, "infinite");
     public static final SoundEvent UNDEFEATABLE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"undefeatable")).setRegistryName(Rtgpowergen.MOD_ID, "undefeatable");
     public static final SoundEvent SEA = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"sea")).setRegistryName(Rtgpowergen.MOD_ID, "sea");
