@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "rtgpowergen:blocks/fl_block_oben",
+    "front": "rtgpowergen:blocks/fl_block_seiten",
+    "side": "rtgpowergen:blocks/fl_block_unten"
+  }
+}

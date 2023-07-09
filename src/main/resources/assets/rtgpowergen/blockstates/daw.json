@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "rtgpowergen:daw"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

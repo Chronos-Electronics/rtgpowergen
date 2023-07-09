@@ -15,11 +15,16 @@ tile.rtgpowergen.demoncore.name=Demon Core
 item.rtgpowergen.ballz.name=Kamehameha!
 item.rtgpowergen.coin.name=Karl Marx Coin
 
+tile.rtgpowergen.daw.name=Digital Audio Workstation
 tile.rtgpowergen.secret_machine.name=Machine with Stick
+
+
+item.rtgpowergen.record_base.name=Music Disc blank
+tooltip.record_base.line=A blank music disc. Right-click on the Digital Audio Workstation to get a random custom music disc
 
 item.rtgpowergen.record.name=Music Disc UwU
 item.record.rumbling.desc=SiM - The Rumbling
-item.record.jadeplume.desc=HOYO-Mix - Jolts in the forest
+item.record.jadeplume.desc=Yu-Peng Chen - Jolts in the forest
 item.record.megalovania.desc=Toby Fox - Megalovania
 item.record.wmid.desc=Hiroyuki Sawano - ətˈæk 0N tάɪtn ＜WMId＞
 item.record.kick_back.desc=Kenshi Yonezu - KICK BACK

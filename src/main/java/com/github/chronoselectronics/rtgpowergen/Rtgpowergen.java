@@ -1,7 +1,7 @@
 package com.github.chronoselectronics.rtgpowergen;
 
+import com.github.chronoselectronics.rtgpowergen.Utils.LogMessage;
 import com.github.chronoselectronics.rtgpowergen.Utils.Registerable;
-import com.github.chronoselectronics.rtgpowergen.Utils.Sounds;
 import com.github.chronoselectronics.rtgpowergen.blocks.Blocks;
 import com.github.chronoselectronics.rtgpowergen.items.Items;
 import com.github.chronoselectronics.rtgpowergen.material.Material;
@@ -10,7 +10,6 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.network.NetworkRegistry;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,9 +23,13 @@ import java.util.logging.Logger;
         version = Rtgpowergen.VERSION
 )
 public class Rtgpowergen {
+
+    private static List<LogMessage> preLogs = new ArrayList<>();
+    private static boolean inited = false;
+
     static List<Registerable> registerables = new ArrayList<Registerable> () {{
        add(Blocks.INSTANCE);
-       add(Items.INSTANCE);
+       add(new Items());
        add(Material.INSTANCE);
     }};
 
@@ -35,7 +38,6 @@ public class Rtgpowergen {
     public static final String VERSION = "1.0";
 
     public static final Logger logger = Logger.getLogger(Rtgpowergen.class.getName());
-
 
     /**
      * This is the instance of your mod as created by Forge. It will never be null.
@@ -46,6 +48,19 @@ public class Rtgpowergen {
     @SidedProxy
     public static CommonProxy proxy;
 
+    public static void log(Level info, String s) {
+        if (inited) {
+            logger.log(info, s);
+            return;
+        }
+        preLogs.add(new LogMessage(info, s));
+    }
+
+    private static void executePreLogs() {
+        for (LogMessage object : preLogs) {
+            logger.log(object.level, object.msg);
+        }
+    }
 
     /**
      * This is the first initialization event. Register tile entities here.
@@ -71,6 +86,10 @@ public class Rtgpowergen {
         public void preInit(FMLPreInitializationEvent e) {
             // Initialization of blocks and items typically goes here:
             logger.log(Level.INFO, "Hello from RTG (Still waiting for AoT last episode)");
+            logger.log(Level.INFO, "All the pre-init logs here:");
+            executePreLogs();
+            inited = true;
+            logger.log(Level.INFO, "Pre-init logs done. Registering stuff...");
             for (Registerable object : registerables) {
                 object.register();
             }
@@ -78,7 +97,6 @@ public class Rtgpowergen {
         }
 
         public void init(FMLInitializationEvent e) {
-            NetworkRegistry.INSTANCE.registerGuiHandler(INSTANCE, new GuiProxy());
         }
 
         public void postInit(FMLPostInitializationEvent e) {

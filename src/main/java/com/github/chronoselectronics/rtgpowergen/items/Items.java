@@ -3,14 +3,27 @@ package com.github.chronoselectronics.rtgpowergen.items;
 import com.github.chronoselectronics.rtgpowergen.Utils.Registerable;
 import com.github.chronoselectronics.rtgpowergen.Utils.Sounds;
 import com.github.chronoselectronics.rtgpowergen.items.items.BallZ;
+import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.text.TextComponentTranslation;
+import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 
 public class Items implements Registerable {
-    static public Items INSTANCE = new Items();
-
     static public BallZ BALLZ = new BallZ();
     static public final BaseItem SCREWDRIVER = new BaseItem().regName("screwdriver");
     static public final BaseItem COIN = new BaseItem().regName("coin");
+
+
+    static public final BaseItem RECORD_BASE = new BaseItem(){
+        public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
+            super.addInformation(stack, worldIn, tooltip, flagIn);
+            tooltip.add(new TextComponentTranslation("tooltip.record_base.line").getFormattedText());
+        }
+    }.regName("record_base");
 
     static public final MusicDisc RUMBLING_RECORD = new MusicDisc("rumbling", Sounds.RUMBLING);
     static public final MusicDisc JADEPLUME_RECORD = new MusicDisc("jadeplume", Sounds.JADEPLUME);
@@ -27,6 +40,9 @@ public class Items implements Registerable {
         SCREWDRIVER.register();
         COIN.register();
 
+
+        RECORD_BASE.register();
+
         RUMBLING_RECORD.register();
         JADEPLUME_RECORD.register();
         MEGALOVANIA_RECORD.register();
@@ -37,5 +53,6 @@ public class Items implements Registerable {
 
     private void preRegister(){
         BALLZ.regName("ballz");
+        RECORD_BASE.setMaxStackSize(1);
     }
 }

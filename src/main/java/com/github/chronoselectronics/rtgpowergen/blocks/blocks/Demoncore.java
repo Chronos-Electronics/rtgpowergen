@@ -1,4 +1,4 @@
-package com.github.chronoselectronics.rtgpowergen.blocks.demoncore;
+package com.github.chronoselectronics.rtgpowergen.blocks.blocks;
 
 import com.github.chronoselectronics.rtgpowergen.blocks.BaseBlock;
 import net.minecraft.block.material.Material;

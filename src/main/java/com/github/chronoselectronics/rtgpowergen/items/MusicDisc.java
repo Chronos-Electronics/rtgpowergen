@@ -11,13 +11,45 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.logging.Level;
+
 public class MusicDisc extends ItemRecord implements Registerable {
+
+    private static int counter = 1;
+    private static final Map<Integer, MusicDisc> musicDiscMap = new HashMap<>();
+
     protected MusicDisc(String name, SoundEvent soundEvent) {
         super(name, soundEvent);
 
-        this.setRegistryName("record_"+name);
-        setTranslationKey (Rtgpowergen.MOD_ID + "." + "record");
+        this.setRegistryName("record_" + name);
+        setTranslationKey(Rtgpowergen.MOD_ID + "." + "record");
+
+        musicDiscMap.put(counter, this);
+        counter++;
+
+        Rtgpowergen.log(Level.INFO, getRegistryName().toString() + Integer.toString (counter-1));
     }
+
+    public static MusicDisc getMusicDiscByID(int id) {
+        return musicDiscMap.get(id);
+    }
+
+    public static int getCounter() {
+        return counter;
+    }
+
+    public static int getIDByMusicDisc(MusicDisc disc) {
+        for (Map.Entry<Integer, MusicDisc> entry : musicDiscMap.entrySet()) {
+            if (entry.getValue().equals(disc)) {
+                return entry.getKey();
+            }
+        }
+        Rtgpowergen.logger.log(Level.SEVERE, "Lol thats not possible how did you get here YOU FRICKIN OBTAINED A MUSIC DISC THAT DOES NOT EXISTS (its constructor wasn't called)");
+        return -1; // Return -1 if the disc is not found
+    }
+
 
     @Override
     public void register() {

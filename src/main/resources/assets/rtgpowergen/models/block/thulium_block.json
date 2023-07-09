@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "rtgpowergen:blocks/plutonium_block"
+    "all": "rtgpowergen:blocks/thulium_block"
   }
 }
