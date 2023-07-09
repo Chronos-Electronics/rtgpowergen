@@ -36,6 +36,7 @@ public class Items implements Registerable {
     static public final MusicDisc SPOODERMAN = new MusicDisc("spooderman", Sounds.SPOODERMAN);
     static public final MusicDisc BONNIE = new MusicDisc("bonnie", Sounds.BONNIE);
     static public final MusicDisc BLACK = new MusicDisc("black", Sounds.BLACK);
+    static public final MusicDisc WINDMILL = new MusicDisc("windmill", Sounds.WINDMILL);
 
     @Override
     public void register() {
@@ -57,6 +58,7 @@ public class Items implements Registerable {
         SPOODERMAN.register();
         BONNIE.register();
         BLACK.register();
+        WINDMILL.register();
     }
 
     private void preRegister(){
