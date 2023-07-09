@@ -116,20 +116,11 @@
       }
     ]
   },
-  "jiyuu": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "rtgpowergen:jiyuu",
-        "stream": true
-      }
-    ]
-  },
   "sasageyo": {
     "category": "record",
     "sounds": [
       {
-        "name": "rtgpowergen:aotops/sasageyo",
+        "name": "rtgpowergen:sasageyo",
         "stream": true
       }
     ]
@@ -138,7 +129,7 @@
     "category": "record",
     "sounds": [
       {
-        "name": "rtgpowergen:aotops/swan",
+        "name": "rtgpowergen:swan",
         "stream": true
       }
     ]
@@ -147,7 +138,7 @@
     "category": "record",
     "sounds": [
       {
-        "name": "rtgpowergen:aotops/mirki",
+        "name": "rtgpowergen:mirki",
         "stream": true
       }
     ]
@@ -156,7 +147,7 @@
     "category": "record",
     "sounds": [
       {
-        "name": "rtgpowergen:aotops/sensou",
+        "name": "rtgpowergen:sensou",
         "stream": true
       }
     ]
