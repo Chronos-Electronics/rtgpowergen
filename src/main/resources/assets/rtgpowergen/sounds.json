@@ -160,5 +160,105 @@
         "stream": true
       }
     ]
+  },
+  "infinite": {
+  "category": "record",
+  "sounds": [
+    {
+      "name": "rtgpowergen:infinite",
+      "stream": true
+    }
+  ]
+},
+  "undefeatable": {
+  "category": "record",
+  "sounds": [
+    {
+      "name": "rtgpowergen:undefeatable",
+      "stream": true
+    }
+  ]
+},
+  "sea": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:sea",
+        "stream": true
+      }
+    ]
+  },
+  "dragonisland": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:dragonisland",
+        "stream": true
+      }
+    ]
+  },
+  "colgera": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:colgera",
+        "stream": true
+      }
+    ]
+  },
+  "storm": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:storm",
+        "stream": true
+      }
+    ]
+  },
+  "demo": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:demo",
+        "stream": true
+      }
+    ]
+  },
+  "fairy": {
+  "category": "record",
+  "sounds": [
+    {
+      "name": "rtgpowergen:fairy",
+      "stream": true
+    }
+  ]
+},
+  "canon": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:canon",
+        "stream": true
+      }
+    ]
+  },
+  "jujutsu": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:jujutsu",
+        "stream": true
+      }
+    ]
+  },
+  "dreaming": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:dreaming",
+        "stream": true
+      }
+    ]
   }
+
 }

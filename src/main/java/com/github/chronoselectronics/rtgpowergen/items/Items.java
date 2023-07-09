@@ -37,6 +37,17 @@ public class Items implements Registerable {
     static public final MusicDisc BONNIE = new MusicDisc("bonnie", Sounds.BONNIE);
     static public final MusicDisc BLACK = new MusicDisc("black", Sounds.BLACK);
     static public final MusicDisc WINDMILL = new MusicDisc("windmill", Sounds.WINDMILL);
+    static public final MusicDisc INFINITE = new MusicDisc("infinite", Sounds.INFINITE);
+    static public final MusicDisc UNDEFEATABLE = new MusicDisc("undefeatable", Sounds.UNDEFEATABLE);
+    static public final MusicDisc SEA = new MusicDisc("sea", Sounds.SEA);
+    static public final MusicDisc DRAGONISLAND = new MusicDisc("dragonisland", Sounds.DRAGONISLAND);
+    static public final MusicDisc COLGERA = new MusicDisc("colgera", Sounds.COLGERA);
+    static public final MusicDisc STORM = new MusicDisc("strom", Sounds.STORM);
+    static public final MusicDisc DEMO = new MusicDisc("demo", Sounds.DEMO);
+    static public final MusicDisc FAIRY = new MusicDisc("fairy", Sounds.FAIRY);
+    static public final MusicDisc CANON = new MusicDisc("canon", Sounds.CANON);
+    static public final MusicDisc JUJUTSU = new MusicDisc("jujutsu", Sounds.JUJUTSU);
+    static public final MusicDisc DREAMING = new MusicDisc("dreaming", Sounds.DREAMING);
 
     //AOT OPs
     static public final MusicDisc GUREN = new MusicDisc("guren", Sounds.GUREN);
@@ -68,6 +79,17 @@ public class Items implements Registerable {
         BONNIE.register();
         BLACK.register();
         WINDMILL.register();
+        INFINITE.register();
+        UNDEFEATABLE.register();
+        SEA.register();
+        DRAGONISLAND.register();
+        COLGERA.register();
+        STORM.register();
+        DEMO.register();
+        FAIRY.register();
+        CANON.register();
+        JUJUTSU.register();
+        DREAMING.register();
 
         //AOT OPs
         GUREN.register();
