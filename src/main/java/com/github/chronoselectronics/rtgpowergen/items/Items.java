@@ -31,6 +31,7 @@ public class Items implements Registerable {
     static public final MusicDisc WMID_RECORD = new MusicDisc("wmid", Sounds.WMID);
     static public final MusicDisc KICK_BACK_RECORD = new MusicDisc("kick_back", Sounds.KICK_BACK);
     static public final MusicDisc SOVIET_RECORD = new MusicDisc("soviet", Sounds.SOVIET_BACK);
+    static public final MusicDisc ZELDAA = new MusicDisc("zeldaa", Sounds.ZELDAA);
 
     @Override
     public void register() {
@@ -49,6 +50,7 @@ public class Items implements Registerable {
         WMID_RECORD.register();
         KICK_BACK_RECORD.register();
         SOVIET_RECORD.register();
+        ZELDAA.register();
     }
 
     private void preRegister(){

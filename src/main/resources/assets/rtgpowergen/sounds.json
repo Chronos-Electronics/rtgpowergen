@@ -52,5 +52,14 @@
         "stream": true
       }
     ]
+  },
+  "zeldaa": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:zeldaa",
+        "stream": true
+      }
+    ]
   }
 }
