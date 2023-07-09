@@ -23,11 +23,11 @@ public class Sounds{
     public static final SoundEvent DRAGONISLAND = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"dragonisland")).setRegistryName(Rtgpowergen.MOD_ID, "dragonisland");
     public static final SoundEvent COLGERA = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"colgera")).setRegistryName(Rtgpowergen.MOD_ID, "colgera");
     public static final SoundEvent STORM = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"storm")).setRegistryName(Rtgpowergen.MOD_ID, "storm,");
-    public static final SoundEvent DEMO = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"aotops/demo")).setRegistryName(Rtgpowergen.MOD_ID, "demo");
-    public static final SoundEvent FAIRY = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"aotops/fairy")).setRegistryName(Rtgpowergen.MOD_ID, "fairy");
-    public static final SoundEvent CANON = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"aotops/canon")).setRegistryName(Rtgpowergen.MOD_ID, "canon");
-    public static final SoundEvent JUJUTSU = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"aotops/jujutsu")).setRegistryName(Rtgpowergen.MOD_ID, "jujutsu");
-    public static final SoundEvent DREAMING = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"aotops/dreaming")).setRegistryName(Rtgpowergen.MOD_ID, "dreaming");
+    public static final SoundEvent DEMO = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"demo")).setRegistryName(Rtgpowergen.MOD_ID, "demo");
+    public static final SoundEvent FAIRY = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"fairy")).setRegistryName(Rtgpowergen.MOD_ID, "fairy");
+    public static final SoundEvent CANON = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"canon")).setRegistryName(Rtgpowergen.MOD_ID, "canon");
+    public static final SoundEvent JUJUTSU = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"jujutsu")).setRegistryName(Rtgpowergen.MOD_ID, "jujutsu");
+    public static final SoundEvent DREAMING = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"dreaming")).setRegistryName(Rtgpowergen.MOD_ID, "dreaming");
 
 
     //AOT OPs
