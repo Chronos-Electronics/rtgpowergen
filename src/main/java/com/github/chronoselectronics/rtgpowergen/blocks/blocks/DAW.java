@@ -1,6 +1,5 @@
 package com.github.chronoselectronics.rtgpowergen.blocks.blocks;
 
-import com.github.chronoselectronics.rtgpowergen.Rtgpowergen;
 import com.github.chronoselectronics.rtgpowergen.blocks.BaseBlock;
 import com.github.chronoselectronics.rtgpowergen.items.MusicDisc;
 import net.minecraft.block.material.Material;
@@ -14,9 +13,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 import java.util.Random;
-import java.util.logging.Level;
-
-import static com.github.chronoselectronics.rtgpowergen.items.MusicDisc.getIDByMusicDisc;
 
 public class DAW extends BaseBlock {
     public DAW() {

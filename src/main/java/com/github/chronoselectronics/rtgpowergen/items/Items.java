@@ -45,6 +45,7 @@ public class Items implements Registerable {
         BALLZ.register();
         SCREWDRIVER.register();
         COIN.register();
+        GLASS.register();
 
 
         RECORD_BASE.register();
