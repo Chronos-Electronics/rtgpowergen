@@ -267,5 +267,45 @@
         "stream": true
       }
     ]
+  },"oflove": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:oflove",
+        "stream": true
+      }
+    ]
+  },"requiem": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:requiem",
+        "stream": true
+      }
+    ]
+  },"yuugure": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:yuugure",
+        "stream": true
+      }
+    ]
+  },"escape": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:escape",
+        "stream": true
+      }
+    ]
+  },"tree": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:tree",
+        "stream": true
+      }
+    ]
   }
 }

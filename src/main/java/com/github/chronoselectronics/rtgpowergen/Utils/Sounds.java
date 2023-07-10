@@ -42,4 +42,9 @@ public class Sounds{
     //AOT EDs
     public static final SoundEvent AKUMA = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"akuma")).setRegistryName(Rtgpowergen.MOD_ID, "akuma");
 public static final SoundEvent SHOCK = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"shock")).setRegistryName(Rtgpowergen.MOD_ID, "shock");
+public static final SoundEvent OFLOVE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"oflove")).setRegistryName(Rtgpowergen.MOD_ID, "oflove");
+public static final SoundEvent REQUIEM = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"requiem")).setRegistryName(Rtgpowergen.MOD_ID, "requiem");
+public static final SoundEvent YUUGURE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"yuugure")).setRegistryName(Rtgpowergen.MOD_ID, "yuugure");
+public static final SoundEvent ESCAPE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"escape")).setRegistryName(Rtgpowergen.MOD_ID, "escape");
+public static final SoundEvent TREE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"tree")).setRegistryName(Rtgpowergen.MOD_ID, "tree");
 }

@@ -61,6 +61,11 @@ public class Items implements Registerable {
     static public final MusicDisc AKUMA = new MusicDisc("akuma", Sounds.AKUMA);
 
     static public final MusicDisc SHOCK = new MusicDisc("shock", Sounds.SHOCK);
+    static public final MusicDisc OFLOVE = new MusicDisc("oflove", Sounds.OFLOVE);
+    static public final MusicDisc REQUIEM = new MusicDisc("requiem", Sounds.REQUIEM);
+    static public final MusicDisc YUUGURE = new MusicDisc("yuugure", Sounds.YUUGURE);
+    static public final MusicDisc ESCAPE = new MusicDisc("escape", Sounds.ESCAPE);
+    static public final MusicDisc TREE = new MusicDisc("tree", Sounds.TREE);
     // LEAVE THAT HERE {AUTOMATION MARK 1}
     @Override
     public void register() {
@@ -109,6 +114,11 @@ public class Items implements Registerable {
         //AOT EDs
         AKUMA.register();
         SHOCK.register();
+        OFLOVE.register();
+        REQUIEM.register();
+        YUUGURE.register();
+        ESCAPE.register();
+        TREE.register();
         // LEAVE THAT HERE {AUTOMATION MARK 2}
     }
 
