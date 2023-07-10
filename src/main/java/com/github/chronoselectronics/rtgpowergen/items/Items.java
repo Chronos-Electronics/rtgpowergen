@@ -60,6 +60,7 @@ public class Items implements Registerable {
     //AOT EDs
     static public final MusicDisc AKUMA = new MusicDisc("akuma", Sounds.AKUMA);
 
+    // LEAVE THAT HERE {AUTOMATION MARK 1}
     @Override
     public void register() {
         preRegister();
@@ -106,6 +107,7 @@ public class Items implements Registerable {
 
         //AOT EDs
         AKUMA.register();
+        // LEAVE THAT HERE {AUTOMATION MARK 2}
     }
 
     private void preRegister(){
