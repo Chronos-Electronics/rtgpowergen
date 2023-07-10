@@ -42,5 +42,4 @@ public class Sounds{
     //AOT EDs
     public static final SoundEvent AKUMA = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"akuma")).setRegistryName(Rtgpowergen.MOD_ID, "akuma");
 public static final SoundEvent SHOCK = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"shock")).setRegistryName(Rtgpowergen.MOD_ID, "shock");
-public static final SoundEvent SHOCK = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"shock")).setRegistryName(Rtgpowergen.MOD_ID, "shock");
 }

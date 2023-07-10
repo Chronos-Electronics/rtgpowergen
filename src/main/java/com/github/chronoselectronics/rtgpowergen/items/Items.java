@@ -61,7 +61,6 @@ public class Items implements Registerable {
     static public final MusicDisc AKUMA = new MusicDisc("akuma", Sounds.AKUMA);
 
     static public final MusicDisc SHOCK = new MusicDisc("shock", Sounds.SHOCK);
-    static public final MusicDisc SHOCK = new MusicDisc("shock", Sounds.SHOCK);
     // LEAVE THAT HERE {AUTOMATION MARK 1}
     @Override
     public void register() {
@@ -109,7 +108,6 @@ public class Items implements Registerable {
 
         //AOT EDs
         AKUMA.register();
-        SHOCK.register();
         SHOCK.register();
         // LEAVE THAT HERE {AUTOMATION MARK 2}
     }

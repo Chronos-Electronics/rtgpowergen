@@ -267,13 +267,5 @@
         "stream": true
       }
     ]
-  },"shock": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "rtgpowergen:shock",
-        "stream": true
-      }
-    ]
   }
 }
