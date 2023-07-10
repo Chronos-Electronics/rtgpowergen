@@ -32,7 +32,7 @@ def itemmodel(id, texture_path):
         f.write(contents)
 
 def translation_key(id, translation):
-    with open("../resources/assets/rtgpowergen/lang/en_US.lang", "a") as f:
+    with open("../resources/assets/rtgpowergen/lang/en_US.lang", "a", encoding="utf-8") as f:
         f.write("\n" + f"item.record.{id}.desc=" + translation)
 
 
