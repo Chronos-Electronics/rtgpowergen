@@ -57,6 +57,9 @@ public class Items implements Registerable {
     static public final MusicDisc MIRKI = new MusicDisc("mirki", Sounds.MIRKI);
     static public final MusicDisc SENSOU = new MusicDisc("sensou", Sounds.SENSOU);
 
+    //AOT EDs
+    static public final MusicDisc AKUMA = new MusicDisc("akuma", Sounds.AKUMA);
+
     @Override
     public void register() {
         preRegister();
@@ -100,6 +103,9 @@ public class Items implements Registerable {
         SWAN.register();
         MIRKI.register();
         SENSOU.register();
+
+        //AOT EDs
+        AKUMA.register();
     }
 
     private void preRegister(){

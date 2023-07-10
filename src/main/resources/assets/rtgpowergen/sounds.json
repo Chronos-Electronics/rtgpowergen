@@ -250,6 +250,15 @@
         "stream": true
       }
     ]
+  },
+  "akuma": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:akuma",
+        "stream": true
+      }
+    ]
   }
 
 }

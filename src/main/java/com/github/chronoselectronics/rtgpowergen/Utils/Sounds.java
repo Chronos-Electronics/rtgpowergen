@@ -39,4 +39,8 @@ public class Sounds{
     public static final SoundEvent SENSOU = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"sensou")).setRegistryName(Rtgpowergen.MOD_ID, "sensou");
 
 
+    //AOT EDs
+    public static final SoundEvent AKUMA = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"akuma")).setRegistryName(Rtgpowergen.MOD_ID, "akuma");
+
+
 }
