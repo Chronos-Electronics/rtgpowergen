@@ -17,6 +17,7 @@ item.rtgpowergen.coin.name=Karl Marx Coin
 item.rtgpowergen.glassofsus.name=A Glass of Sus
 
 tile.rtgpowergen.daw.name=Digital Audio Workstation
+tile.rtgpowergen.rtgpowergenerator.name=RTG Power Generator
 tile.rtgpowergen.secret_machine.name=Machine with Stick
 
 
@@ -67,3 +68,4 @@ item.record.requiem.desc=Linked Horizon - 暁の鎮魂歌 (Requiem der Morgenrö
 item.record.yuugure.desc=Shinsei Kamattechan - 夕暮れの鳥 (Yuugure no tori)
 item.record.escape.desc=cinema staff - great escape 
 item.record.tree.desc=SiM - Under the Tree
+item.record.ashes.desc=Kohta Yamamoto - Ashes on The Fire

@@ -28,6 +28,9 @@ def soundsjson(id):
 
 def itemmodel(id, texture_path):
     contents = '{\n  "parent": "item/generated",\n  "textures": {\n    "layer0": "rtgpowergen:items/discs/{texture_path}"\n  }\n}\n'.replace("{texture_path}", texture_path+"/"+id)
+    if texture_path == "":
+        contents = '{\n  "parent": "item/generated",\n  "textures": {\n    "layer0": "rtgpowergen:items/discs/{texture_path}"\n  }\n}\n'.replace("{texture_path}", id)
+
     with open(f"../resources/assets/rtgpowergen/models/item/record_{id}.json", "w") as f:
         f.write(contents)
 

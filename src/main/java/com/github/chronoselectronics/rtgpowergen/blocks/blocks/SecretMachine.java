@@ -2,7 +2,6 @@ package com.github.chronoselectronics.rtgpowergen.blocks.blocks;
 
 import com.github.chronoselectronics.rtgpowergen.blocks.BaseBlock;
 import com.github.chronoselectronics.rtgpowergen.items.Items;
-import com.github.chronoselectronics.rtgpowergen.items.MusicDisc;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
@@ -19,6 +18,7 @@ public class SecretMachine extends BaseBlock {
 
     public SecretMachine(Material material) {
         super(material);
+        setHardness(2);
         regName("secret_machine");
     }
 

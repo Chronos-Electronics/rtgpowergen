@@ -307,5 +307,13 @@
         "stream": true
       }
     ]
+  },"ashes": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:ashes",
+        "stream": true
+      }
+    ]
   }
 }

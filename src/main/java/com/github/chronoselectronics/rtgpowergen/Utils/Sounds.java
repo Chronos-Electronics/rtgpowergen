@@ -47,4 +47,5 @@ public static final SoundEvent REQUIEM = new SoundEvent(new ResourceLocation(Rtg
 public static final SoundEvent YUUGURE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"yuugure")).setRegistryName(Rtgpowergen.MOD_ID, "yuugure");
 public static final SoundEvent ESCAPE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"escape")).setRegistryName(Rtgpowergen.MOD_ID, "escape");
 public static final SoundEvent TREE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"tree")).setRegistryName(Rtgpowergen.MOD_ID, "tree");
+public static final SoundEvent ASHES = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"ashes")).setRegistryName(Rtgpowergen.MOD_ID, "ashes");
 }
