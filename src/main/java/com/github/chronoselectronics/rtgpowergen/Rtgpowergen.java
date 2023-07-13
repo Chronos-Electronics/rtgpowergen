@@ -56,6 +56,10 @@ public class Rtgpowergen {
         preLogs.add(new LogMessage(info, s));
     }
 
+    public static void log(String s) {
+        log(Level.INFO, s);
+    }
+
     private static void executePreLogs() {
         for (LogMessage object : preLogs) {
             logger.log(object.level, object.msg);

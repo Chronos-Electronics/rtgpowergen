@@ -50,6 +50,7 @@ public class BaseBlock extends Block implements Registerable {
         return this;
     }
 
+
     public void register() {
         lightValue = light;
         itemBlock.setRegistryName(this.getRegistryName());
