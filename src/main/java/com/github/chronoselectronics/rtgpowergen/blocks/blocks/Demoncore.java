@@ -1,6 +1,7 @@
 package com.github.chronoselectronics.rtgpowergen.blocks.blocks;
 
 import com.github.chronoselectronics.rtgpowergen.blocks.BaseBlock;
+import com.github.chronoselectronics.rtgpowergen.effects.PotionEffects;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
@@ -35,7 +36,7 @@ public class Demoncore extends BaseBlock {
                  world.spawnParticle(EnumParticleTypes.SPELL_MOB, pos.getX() + 0.5, pos.getY() + 1.0, pos.getZ() + 0.5, particleXSpeed, particleYSpeed, particleZSpeed);
             }
             // Apply wither effect to the player
-            player.addPotionEffect(new PotionEffect(MobEffects.WITHER, 9999999, 10));
+            player.addPotionEffect(new PotionEffect(PotionEffects.RADIATION_SICKNESS, 9999999, 10));
             return true;
         }
         return false;

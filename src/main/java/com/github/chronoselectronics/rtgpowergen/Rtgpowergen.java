@@ -3,6 +3,7 @@ package com.github.chronoselectronics.rtgpowergen;
 import com.github.chronoselectronics.rtgpowergen.Utils.LogMessage;
 import com.github.chronoselectronics.rtgpowergen.Utils.Registerable;
 import com.github.chronoselectronics.rtgpowergen.blocks.Blocks;
+import com.github.chronoselectronics.rtgpowergen.effects.PotionEffects;
 import com.github.chronoselectronics.rtgpowergen.items.Items;
 import com.github.chronoselectronics.rtgpowergen.material.Material;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -31,6 +32,7 @@ public class Rtgpowergen {
        add(Blocks.INSTANCE);
        add(new Items());
        add(Material.INSTANCE);
+       add(PotionEffects.INSTANCE);
     }};
 
     public static final String MOD_ID = "rtgpowergen";
