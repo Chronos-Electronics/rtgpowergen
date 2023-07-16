@@ -2,6 +2,7 @@ package com.github.chronoselectronics.rtgpowergen.blocks.blocks;
 
 import com.github.chronoselectronics.rtgpowergen.blocks.BaseBlock;
 import com.github.chronoselectronics.rtgpowergen.items.Items;
+import com.github.chronoselectronics.rtgpowergen.material.materials.Plutonium;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
@@ -11,6 +12,7 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraftforge.oredict.OreDictionary;
 
 
 public class SecretMachine extends BaseBlock {
@@ -34,6 +36,17 @@ public class SecretMachine extends BaseBlock {
             return true; // Return true if the MusicDisc is successfully processed
         }
 
-        return false;
+        if (heldItem != ItemStack.EMPTY) {
+            int[] oreIDs = OreDictionary.getOreIDs(heldItem);
+            for (int oreID : oreIDs) {
+                String oreName = OreDictionary.getOreName(oreID);
+                if (oreName.equals("ingotUranium")) {
+                    heldItem.shrink(1);
+                    player.inventory.addItemStackToInventory(new ItemStack(Plutonium.INSTANCE.getItem()));
+                    return true; // If you want to stop checking after finding one instance of "ingotUranium"
+                }
+            }
+        }
+            return false;
     }
 }
