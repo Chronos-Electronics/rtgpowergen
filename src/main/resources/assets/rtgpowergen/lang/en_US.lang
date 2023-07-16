@@ -9,6 +9,9 @@ item.rtgpowergen.thulium_ingot.name=Piece of Thulium-69
 
 itemGroup.rtgpowergentab=RTG Power Generator
 
+potion.radiation_sickness=Radiation Sickness
+death.attack.radiation=Radiation
+
 item.rtgpowergen.screwdriver.name=Screwdriver
 tile.rtgpowergen.demoncore.name=Demon Core
 

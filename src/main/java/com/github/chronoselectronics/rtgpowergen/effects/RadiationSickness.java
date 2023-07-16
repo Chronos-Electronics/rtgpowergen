@@ -17,7 +17,7 @@ public class RadiationSickness extends Potion {
 
     @Override
     public void performEffect(EntityLivingBase entity, int amplifier) {
-        entity.attackEntityFrom(DamageSource.MAGIC, 10);
+        entity.attackEntityFrom(new DamageSource("radiation").setDamageBypassesArmor().setMagicDamage(), 1);
     }
 
     @Override
