@@ -2,23 +2,23 @@
   "type": "forge:ore_shaped",
   "pattern":
   [
-    "  a",
-    " b ",
-    "b  "
+    "bbb",
+    "bab",
+    "bbb"
   ],
   "key":
   {
-    "a":
+    "b":
     {
       "item": "rtgpowergen:thulium_ingot"
     },
-    "b":
+    "a":
     {
-      "item": "minecraft:stick"
+      "item": "rtgpowergen:demoncore"
     }
   },
   "result":
   {
-    "item": "rtgpowergen:screwdriver"
+    "item": "rtgpowergen:rtgpowergenerator"
   }
 }

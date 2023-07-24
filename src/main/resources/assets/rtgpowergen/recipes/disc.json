@@ -1,0 +1,20 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern":
+  [
+    " b ",
+    "b b",
+    " b "
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "rtgpowergen:thulium_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "rtgpowergen:record_base"
+  }
+}
