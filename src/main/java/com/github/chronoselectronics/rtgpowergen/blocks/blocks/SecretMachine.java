@@ -37,15 +37,22 @@ public class SecretMachine extends BaseBlock {
         }
 
         if (heldItem != ItemStack.EMPTY) {
-            int[] oreIDs = OreDictionary.getOreIDs(heldItem);
-            for (int oreID : oreIDs) {
-                String oreName = OreDictionary.getOreName(oreID);
-                if (oreName.equals("ingotUranium")) {
-                    heldItem.shrink(1);
-                    player.inventory.addItemStackToInventory(new ItemStack(Plutonium.INSTANCE.getItem()));
-                    return true; // If you want to stop checking after finding one instance of "ingotUranium"
+            try {
+                int[] oreIDs = OreDictionary.getOreIDs(heldItem);
+
+                for (int oreID : oreIDs) {
+                    String oreName = OreDictionary.getOreName(oreID);
+                    if (oreName.equals("ingotUranium")) {
+                        heldItem.shrink(1);
+                        player.inventory.addItemStackToInventory(new ItemStack(Plutonium.INSTANCE.getItem()));
+                        return true; // If you want to stop checking after finding one instance of "ingotUranium"
+                    }
                 }
             }
+            catch (Exception exception)  {
+                return false;
+            }
+
         }
             return false;
     }
