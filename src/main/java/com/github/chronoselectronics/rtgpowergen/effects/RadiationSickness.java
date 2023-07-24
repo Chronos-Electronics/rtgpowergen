@@ -10,7 +10,9 @@ public class RadiationSickness extends Potion {
     public RadiationSickness() {
         super(false, 0xFF00FF); // Customize the color as desired
         setPotionName("potion.radiation_sickness");
+
         setIconIndex(0, 0); // Customize the icon index if needed
+
         setEffectiveness(0.25D); // Adjust the effectiveness value as needed
         setRegistryName(Rtgpowergen.MOD_ID, "radiation_sickness");
     }
