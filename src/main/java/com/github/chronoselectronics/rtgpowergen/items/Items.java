@@ -67,6 +67,9 @@ public class Items implements Registerable {
     static public final MusicDisc ESCAPE = new MusicDisc("escape", Sounds.ESCAPE);
     static public final MusicDisc TREE = new MusicDisc("tree", Sounds.TREE);
     static public final MusicDisc ASHES = new MusicDisc("ashes", Sounds.ASHES);
+    static public final MusicDisc PLUTO = new MusicDisc("pluto", Sounds.PLUTO);
+    static public final MusicDisc VALENTINE = new MusicDisc("valentine", Sounds.VALENTINE);
+    static public final MusicDisc GIGACHAD = new MusicDisc("gigachad", Sounds.GIGACHAD);
     // LEAVE THAT HERE {AUTOMATION MARK 1}
     @Override
     public void register() {
@@ -121,6 +124,9 @@ public class Items implements Registerable {
         ESCAPE.register();
         TREE.register();
         ASHES.register();
+        PLUTO.register();
+        VALENTINE.register();
+        GIGACHAD.register();
         // LEAVE THAT HERE {AUTOMATION MARK 2}
     }
 

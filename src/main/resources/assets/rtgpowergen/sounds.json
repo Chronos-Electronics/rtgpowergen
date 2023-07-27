@@ -315,5 +315,29 @@
         "stream": true
       }
     ]
+  },"pluto": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:pluto",
+        "stream": true
+      }
+    ]
+  },"valentine": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:valentine",
+        "stream": true
+      }
+    ]
+  },"gigachad": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "rtgpowergen:gigachad",
+        "stream": true
+      }
+    ]
   }
 }

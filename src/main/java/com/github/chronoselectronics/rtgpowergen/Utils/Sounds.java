@@ -48,4 +48,7 @@ public static final SoundEvent YUUGURE = new SoundEvent(new ResourceLocation(Rtg
 public static final SoundEvent ESCAPE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"escape")).setRegistryName(Rtgpowergen.MOD_ID, "escape");
 public static final SoundEvent TREE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"tree")).setRegistryName(Rtgpowergen.MOD_ID, "tree");
 public static final SoundEvent ASHES = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"ashes")).setRegistryName(Rtgpowergen.MOD_ID, "ashes");
+public static final SoundEvent PLUTO = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"pluto")).setRegistryName(Rtgpowergen.MOD_ID, "pluto");
+public static final SoundEvent VALENTINE = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"valentine")).setRegistryName(Rtgpowergen.MOD_ID, "valentine");
+public static final SoundEvent GIGACHAD = new SoundEvent(new ResourceLocation(Rtgpowergen.MOD_ID ,"gigachad")).setRegistryName(Rtgpowergen.MOD_ID, "gigachad");
 }
